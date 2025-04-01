@@ -344,7 +344,17 @@ def get_theme_styles():
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         .stDeployButton {display:none;}
+        .block-container {
+        padding-top: 0.5rem !important;
+        }
         .css-18e3th9 {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .css-1d391kg {
+            padding: 1rem;
+        }
+            .css-18e3th9 {
             padding-top: 1rem;
             padding-bottom: 1rem;
         }
@@ -537,8 +547,7 @@ def main():
         if st.session_state.theme != params["theme"][0]:
             st.session_state.theme = params["theme"][0]
     
-    # Title with styled container
-    st.markdown('<div class="title-container">', unsafe_allow_html=True)
+
     st.markdown(
         """
         <div class="app-header">
