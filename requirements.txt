@@ -1,0 +1,9 @@
+streamlit
+regex
+pandas
+pillow
+markdown
+pdfkit
+html2image
+python-docx
+streamlit-ace
