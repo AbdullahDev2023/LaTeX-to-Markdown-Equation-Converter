@@ -7,3 +7,4 @@ pdfkit
 html2image
 python-docx
 streamlit-ace
+pyperclip
